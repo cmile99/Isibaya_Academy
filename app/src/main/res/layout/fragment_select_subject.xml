@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sub_select_frame"
+    tools:context=".SelectSubject">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/select_subject"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30sp"
+                android:layout_marginBottom="32dp"
+                android:textAlignment="center" />
+
+            <RadioGroup
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/select_subject_grp">
+
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eng_sub"
+                    android:text="@string/eng_sub"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:buttonTint="@color/colorPrimaryDark"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:padding="4dp"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/vpa_sub"
+                    android:text="@string/vpa_sub"
+                    android:textStyle="bold"
+                    android:buttonTint="@color/colorPrimaryDark"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="24sp"
+                    android:padding="4dp"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:text="@string/nde_sub"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:padding="4dp"
+                    android:id="@+id/nde_sub"
+                    android:buttonTint="@color/colorPrimaryDark"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:text="@string/snt_sub"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:padding="4dp"
+                    android:id="@+id/snt_sub"
+                    android:buttonTint="@color/colorPrimaryDark"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:text="@string/ict_sub"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:padding="4dp"
+                    android:id="@+id/ict_sub"
+                    android:buttonTint="@color/colorPrimaryDark"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:text="@string/her_sub"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:padding="4dp"
+                    android:id="@+id/her_sub"
+                    android:buttonTint="@color/colorPrimaryDark"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:text="@string/pe_sub"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:padding="4dp"
+                    android:id="@+id/pe_sub"
+                    android:buttonTint="@color/colorPrimaryDark"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:text="@string/agri_sub"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:padding="4dp"
+                    android:id="@+id/agri_sub"
+                    android:buttonTint="@color/colorPrimaryDark"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:text="@string/far_sub"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:padding="4dp"
+                    android:id="@+id/far_sub"
+                    android:buttonTint="@color/colorPrimaryDark"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

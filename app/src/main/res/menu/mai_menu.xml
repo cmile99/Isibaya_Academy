@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile_menu_item"
+            android:title="@string/profile_menu_text"
+            android:icon="@drawable/user_male_56px" />
+
+        <item
+            android:id="@+id/report_menu_item"
+            android:title="@string/progress"
+            android:icon="@drawable/increase_56px" />
+
+        <item
+            android:id="@+id/settings_menu_item"
+            android:title="@string/settings"
+            android:icon="@drawable/settings_56px" />
+
+        <item
+            android:id="@+id/exit_menu_item"
+            android:title="@string/exit"
+            android:icon="@drawable/exit_56px" />
+    </group>
+</menu>
